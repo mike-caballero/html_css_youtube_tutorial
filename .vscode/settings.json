@@ -1,0 +1,18 @@
+{
+  "[html]": {
+    "editor.formatOnSave": true
+  },
+  "[css]": {
+    "editor.formatOnSave": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": true
+  },
+  "stylelint.enable": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "html.autoClosingTags": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "css.validate": false
+}

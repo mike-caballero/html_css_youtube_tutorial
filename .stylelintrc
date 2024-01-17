@@ -1,0 +1,9 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "keyframe-declaration-no-important": true,
+    "length-zero-no-unit": true,
+    "selector-max-id": 0,
+    "selector-max-type": 0
+  }
+}
