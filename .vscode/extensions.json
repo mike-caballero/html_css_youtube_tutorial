@@ -4,6 +4,7 @@
     "davidanson.vscode-markdownlint",
     "eamodio.gitlens",
     "streetsidesoftware.code-spell-checker",
-    "stylelint.vscode-stylelint"
+    "stylelint.vscode-stylelint",
+    "ritwickdey.liveserver"
   ]
 }
