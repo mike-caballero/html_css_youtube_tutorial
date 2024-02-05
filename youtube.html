@@ -18,13 +18,19 @@
         margin-bottom: 0px;
       }
 
-      .thumbnail {
-        width: 300px;
+      .search-bar {
         display: block;
       }
 
-      .search-bar {
-        display: block;
+      .video-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+        row-gap: 40px;
+      }
+
+      .thumbnail {
+        width: 100%;
       }
 
       .video-author,
@@ -40,21 +46,11 @@
       }
 
       .video-preview {
-        width: 300px;
-        display: inline-block;
-        vertical-align: top;
-        margin-right: 15px;
       }
 
-      .channel-picture {
-        display: inline-block;
-        width: 50px;
-        vertical-align: top;
-      }
-
-      .video-info {
-        display: inline-block;
-        width: 200px;
+      .video-info-grid {
+        display: grid;
+        grid-template-columns: 50px 1fr;
       }
 
       .profile-picture {
@@ -79,38 +75,110 @@
   </head>
   <body>
     <input class="search-bar" type="text" value="Search" />
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-1.webp" />
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-picture/channel-1.jpeg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">Marques Brownlee</p>
+            <p class="video-stats">3.4M views · 6 months ago</p>
+          </div>
+        </div>
+      </div>
 
-    <div class="video-preview">
-      <div class="thumbnail-row">
-        <img class="thumbnail" src="thumbnails/thumbnail-1.webp" />
-      </div>
-      <div>
-        <div class="channel-picture">
-          <img class="profile-picture" src="channel-picture/channel-1.jpeg" />
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-2.webp" />
         </div>
-        <div class="video-info">
-          <p class="video-title">
-            Talking Tech and AI with Google CEO Sundar Pichai!
-          </p>
-          <p class="video-author">Marques Brownlee</p>
-          <p class="video-stats">3.4M views · 6 months ago</p>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-picture/channel-2.jpeg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Try Not To Laugh Challenge #9</p>
+            <p class="video-author">Markiplier</p>
+            <p class="video-stats">19M views · 4 years ago</p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="video-preview">
-      <div class="thumbnail-row">
-        <img class="thumbnail" src="thumbnails/thumbnail-2.webp" />
-      </div>
-      <div>
-        <div class="channel-picture">
-          <!-- You may need to add an appropriate image source for the channel picture -->
-          <img class="profile-picture" src="channel-picture/channel-2.jpeg" />
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-3.webp" />
         </div>
-        <div class="video-info">
-          <p class="video-title">Try Not To Laugh Challenge #9</p>
-          <p class="video-author">Markiplier</p>
-          <p class="video-stats">19M views · 4 years ago</p>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-picture/channel-3.jpeg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">Marques Brownlee</p>
+            <p class="video-stats">3.4M views · 6 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-4.webp" />
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-picture/channel-4.jpeg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">Marques Brownlee</p>
+            <p class="video-stats">3.4M views · 6 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-5.webp" />
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-picture/channel-5.jpeg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">Marques Brownlee</p>
+            <p class="video-stats">3.4M views · 6 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-6.webp" />
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-picture/channel-6.jpeg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">Marques Brownlee</p>
+            <p class="video-stats">3.4M views · 6 months ago</p>
+          </div>
         </div>
       </div>
     </div>
